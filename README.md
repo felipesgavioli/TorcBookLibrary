@@ -34,7 +34,7 @@ This project is an ASP.NET Core application that manages a personal book library
 
 **TorcBookLibrary.Models:** Data model definitions (e.g., the Book class).
 
-**FrontEnd:** Simple Javascript
+**FrontEnd:** To view the front end page, simply open index.html
 
 
 <h1>How to Contribute</h1>
