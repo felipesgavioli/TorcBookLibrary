@@ -21,6 +21,8 @@ This project is an ASP.NET Core application that manages a personal book library
 
 **SQL Server (Azure SQL Database)**
 
+**Javascript**
+
 
 <h1>Project Structure</h1>
 
@@ -31,6 +33,8 @@ This project is an ASP.NET Core application that manages a personal book library
 **TorcBookLibrary.Repository:** Data access layer interacting with the database.
 
 **TorcBookLibrary.Models:** Data model definitions (e.g., the Book class).
+
+**FrontEnd:** Simple Javascript
 
 
 <h1>How to Contribute</h1>
