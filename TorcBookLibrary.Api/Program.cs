@@ -1,12 +1,11 @@
 using TorcBookLibrary.Repository;
 using TorcBookLibrary.Service;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthorization();
+builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
 {
@@ -42,7 +41,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAnyOrigin");
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

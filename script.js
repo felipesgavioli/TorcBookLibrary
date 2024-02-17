@@ -1,4 +1,4 @@
-fetch('http://localhost:5196/book/')
+fetch('https://torc-book-libary.azurewebsites.net/book/')
     .then(response => response.json())
     .then(data => {
         const resultsContainer = document.getElementById('resultsContainer');
