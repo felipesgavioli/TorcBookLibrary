@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorcBookLibrary.Api", "TorcBookLibrary.Api\TorcBookLibrary.Api.csproj", "{46B6A1EF-429C-4393-B708-BA9E4F9F0FFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcBookLibrary.Api", "TorcBookLibrary.Api\TorcBookLibrary.Api.csproj", "{46B6A1EF-429C-4393-B708-BA9E4F9F0FFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorcBookLibrary.Model", "TorcBookLibrary.Model\TorcBookLibrary.Model.csproj", "{E324911B-E419-4097-AEC5-7A67BA4761B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcBookLibrary.Model", "TorcBookLibrary.Model\TorcBookLibrary.Model.csproj", "{E324911B-E419-4097-AEC5-7A67BA4761B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorcBookLibrary.Repository", "TorcBookLibrary.Repository\TorcBookLibrary.Repository.csproj", "{0509F457-B223-499F-9BF9-BF38EFA0D544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcBookLibrary.Repository", "TorcBookLibrary.Repository\TorcBookLibrary.Repository.csproj", "{0509F457-B223-499F-9BF9-BF38EFA0D544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorcBookLibrary.Service", "TorcBookLibrary.Service\TorcBookLibrary.Service.csproj", "{51FBC01A-6014-47B8-8696-BBA4C2948250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorcBookLibrary.Service", "TorcBookLibrary.Service\TorcBookLibrary.Service.csproj", "{51FBC01A-6014-47B8-8696-BBA4C2948250}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Api", "0 - Api", "{81EDAFB4-C27B-4085-8110-F57C695132BC}"
 EndProject
@@ -18,6 +18,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Model", "2 - Model", "{9E0F37FC-1A68-4179-AF7B-B6A5E4416925}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Repository", "3 - Repository", "{BDDACA00-505F-40D2-845C-D25884B4218B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{1B35CC7D-7CB1-4FC4-B7D8-A19CBFDC8583}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+		script.js = script.js
+		styles.css = styles.css
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
