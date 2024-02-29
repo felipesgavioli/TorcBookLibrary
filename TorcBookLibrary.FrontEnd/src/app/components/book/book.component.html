@@ -1,0 +1,39 @@
+<form class="row g-3">
+    <div class="col-auto">
+      <label for="staticSearchBook" class="visually-hidden">Book Search</label>
+      <input type="text" readonly class="form-control-plaintext" id="staticSearchBook" value="Book Search">
+    </div>
+    <div class="col-auto">        
+      <label for="searchBook" class="visually-hidden">Book Search</label>
+      <input type="text" [(ngModel)]="searchTerm" [ngModelOptions]="{ standalone: true }" class="form-control" id="searchBook" placeholder="Enter search term (FirstName, LastName, ISBN, Title, Type or Category)">      
+    </div>
+    <div class="col-auto">
+      <button type="submit" (click)="searchBooks()" class="btn btn-primary mb-3">Search</button>
+    </div>
+  
+
+    <div class="books">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Name</th>
+                <th scope="col">Total Copies</th>
+                <th scope="col">Isbn</th>
+                <th scope="col">Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let book of books">
+                <td>{{book.title}}</td>
+                <td>{{book.firstName}} {{book.lastName}}</td>
+                <td>{{book.totalCopies}}</td>
+                <td>{{book.isbn }}</td>
+                <td>{{book.category }}</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+
+</form>
