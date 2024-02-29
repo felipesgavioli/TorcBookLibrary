@@ -21,7 +21,7 @@ This project is an ASP.NET Core application that manages a personal book library
 
 **SQL Server (Azure SQL Database)**
 
-**Javascript**
+**Angular 17**
 
 
 <h1>Project Structure</h1>
@@ -34,7 +34,7 @@ This project is an ASP.NET Core application that manages a personal book library
 
 **TorcBookLibrary.Models:** Data model definitions (e.g., the Book class).
 
-**FrontEnd:** To view the front end page, simply open index.html
+**TorcBookLibrary.FrontEnd:** To view the front end page(Agnular)
 
 
 <h1>How to Contribute</h1>
